@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redirect to Itch</title>
+    <style>
+      /* Style the body */
+      body {
+        background-color: #1a2a4a; /* Dark blue */
+      }
+      
+      /* Style the button */
+      button {
+        background-color: #fff; /* White */
+        border: none;
+        color: #1a2a4a; /* Dark blue */
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        margin: 0 auto 16px; /* Add a bit of space below the button */
+        cursor: pointer;
+        border-radius: 10px;
+      }
+      
+      /* Hover state */
+      button:hover {
+        background-color: #ddd; /* Light gray */
+      }
+      
+      /* Style the image container */
+      #image-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+      /* Style the image */
+      #image-container img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="image-container">
+      <img src="draw.png" alt="Drawing" />
+    </div>
+    <button onclick="window.location.href='https://srabb.itch.io/'">Itch</button>
+  </body>
+</html>
