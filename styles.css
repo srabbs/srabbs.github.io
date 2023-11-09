@@ -1,0 +1,19 @@
+body {
+    background-color: grey;
+}
+
+.header {
+    font-size: 500%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    user-select: none;
+}
+
+.hello {
+    text-align: center;
+}
+
+.pfp {
+    text-align: center;
+    user-select: none;
+}
