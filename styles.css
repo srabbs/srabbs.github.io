@@ -9,6 +9,14 @@ body {
     user-select: none;
 }
 
+.contact {
+    font-size: 200%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    user-select: none;
+    text-align: center;
+}
+
 .hello {
     text-align: center;
 }
@@ -16,4 +24,26 @@ body {
 .pfp {
     text-align: center;
     user-select: none;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 2%;
+}
+
+a {
+    border-style: solid;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-color: white;
+    color: white;
+    background-color: rgb(170, 170, 170);
+    font-size: 60px;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
 }
