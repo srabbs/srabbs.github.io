@@ -47,3 +47,13 @@ p {
     text-align: center;
     font-size: xx-large;
 }
+
+.cesium {
+    border-style: solid;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-color: white;
+    color: white;
+    background-color: rgb(49, 49, 49);
+    font-size: 60px;
+}
